@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+        <img src="picc.PNG" alt="Profile Picture" class="profile-img">
+        <h2 style="font-size: 30px;">Kavita Luhana</h2>
+        <h3>Frontend Developer</h3>
+        <div class="about">
+            <h4 style="font-size: 20px;">About Me</h4> 
+            <div class="under" style="width: 250px; height: 5px; background-color: rgb(210, 147, 52); margin: 9px;"></div>
+            <p>
+                "Hi, I'm Kavita, a 19-year-old frontend developer with a completed intermediate education. I'm passionate about expanding my expertise, and in the future, I aim to explore the field of artificial intelligence to enhance my skills and knowledge."</p>
+        </div>
+        <div class="contact">
+            <h4 style="font-size: 20px;">Contact</h4>
+            <div class="under" style="width: 250px; height: 5px; background-color: rgb(210, 147, 52); margin: 9px;"></div>
+            <p>📞 03197946724</p>
+            <p>📧 kavitaluhana11@gmail.com</p>
+            <p>📍 Karachi, Pakistan</p>
+        </div>
+        <div class="skills">
+            <h4>Skills</h4>
+            <div id="skillList" class="skill-bars">
+                <div class="skill-bar"><span>HTML</span></div>
+                <div class="skill-bar"><span>CSS</span></div>
+                <div class="skill-bar"><span>Bootstrap</span></div>
+                <div class="skill-bar"><span>Tailwind css (continue)</span></div>
+                <div class="skill-bar"><span>JavaScript</span></div>
+                <div class="skill-bar"><span>TypeScript</span></div>
+                <div class="skill-bar"><span>Next.js (continue)</span></div>
+              
+            </div>
+            <button id="toggleButton" onclick="toggleSkills()">Show Skills</button>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content" >
+        <section class="education" >
+            <h2 style="text-align: center;  background-color: #4a2323; padding: 10px; ">🎓 Education</h2>
+            <div class="education-item" >MATRICULATION (A1 Grade)
+                from B.I.S.E. Hyderabad, Sindh</div>
+            <div class="education-item">Intermediate (A1 Grade) from
+                B.I.S.E. Hyderabad, Sindh
+                </div>
+            <div class="education-item">AI metaverse web 3.0 courses
+                at governor house (continue).</div>
+            <div class="education-item">Web and mobile application at
+                SMIT (Continue)
+                </div>
+        </section>
+        <section class="experience">
+            <h2 style="text-align: center; background-color: #4a2323; padding: 10px; ">💼 Experience</h2>
+            <div class="experience-item">
+                <h3>Frontend Developer</h3>
+                <ul style="font-weight: bold;">
+                    <li>html course - SMIT( 2 months Training)</li>
+                </ul>
+                   <p style="padding: 10px;"> Acquired skills in HTML fundamentals, including tags,
+                    attributes, and best practices for web development through
+                    hands-on projects
+                </p>
+               
+
+                <ul style="font-weight: bold;">
+                    <li>CSS course - SMIT(2 months Training)</li>
+                </ul>
+                   <p style="padding: 10px;">Studied CSS fundamentals, including styling, layout design,
+                    and responsive techniques. Gained practical experience
+                    through hands-on projects.
+                    
+                </p>
+
+
+                <ul style="font-weight: bold;">
+                    <li>TypeScript course - GIAIC(4 months Training)</li>
+                </ul>
+                   <p style="padding: 10px;"> The powerful features of TypeScript, which builds on JavaScript
+                    by adding static typing. You learned how to define types, create
+                    interfaces, and use classes, enhancing your ability to write robust,
+                    maintainable code.
+                </p>
+
+            </div>
+        </section>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
